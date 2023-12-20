@@ -299,6 +299,24 @@ nav ul li a {
   color: gainsboro;
   width: 100%;
 }
+/* footer style */
+footer {
+  padding: 20px 100px;
+}
+.footer {
+  border-radius: 2px;
+  background: #fff4e7;
+  padding: 15px;
+}
+.footer p {
+  color: #424242;
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
 /* responsive styles here */
 /* mobile or small devices responsive */
 @media screen and (max-width: 576px) {
@@ -432,6 +450,13 @@ nav ul li a {
   .sponsores-section p {
     line-height: 20px;
   }
+  /* footer style */
+  footer {
+    padding: 10px 20px;
+  }
+  .footer p {
+    font-size: 15px;
+  }
 }
 
 /* tablet or medium devices */
@@ -490,5 +515,12 @@ nav ul li a {
   }
   .sponsores-img .img-div img {
     width: 100%;
+  }
+  /* footer style */
+  footer {
+    padding: 10px 50px;
+  }
+  .footer p {
+    font-size: 18px;
   }
 }
